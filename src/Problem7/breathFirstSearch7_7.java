@@ -1,5 +1,9 @@
 package Problem7;
-//이진트리 순회(넓이우선탐석 : 레벨탐색)
+// 이진트리 순회(넓이우선탐석 : 레벨탐색)
+//       1 --------0
+//    2     3 -----1
+//  4  5  6  7 ----2
+// 레벨 탐색 순회 출력 : 1 2 3 4 5 6 7
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -38,3 +42,4 @@ public class breathFirstSearch7_7 {
     }
 
 }
+
